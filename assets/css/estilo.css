@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header {
+    background-color: #3e838c;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+main {
+    text-align: center;
+}
+
+main h2 {
+    padding-bottom: 10px;
+    padding-top: 20px;
+    background-color: #ece1c3;
+}
+
+main p {
+    background-color: #ece1c3;
+    padding-bottom: 10px;
+}
+
+
+.primeiraatv {
+    background-color: #063940;
+    margin-left:  100px;
+}
+
+.texto{
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.titulo {
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.primeiraatv {
+    margin-top: 20px;
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.btncalcularcss {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.resultado {
+    color: #fff;
+}
+
+.paragrafo {
+    color: #fff;
+}
+
+
+.textinhoss {
+    color: #fff;
+}
+
+.dois {
+    padding-left: 200px;
+    padding-top: 100px;
+
+
+}
+
+.primeira {
+   display: flex;
+}
+
+.textao {
+    padding-bottom: 30px;
+}
+
+.btncor {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px
+}
+
+.textodois {
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.atv {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.jjj {
+    background-color: #3e838c;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 70px 250px;
+    border-radius: 40px;
+
+}
+.jjj h4{
+    padding-bottom: 20px;
+}
+
+footer {
+    background-color: #063940;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.rodape {
+    padding-bottom: 20px;
+}
+
+
+@media (max-width: 768px) {
+   
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+   
+    .primeiraatv {
+        width: 80%;
+        margin-left: 0;
+    }
+
+    .dois {
+        padding-left: 0;
+        padding-top: 20px;
+    }
+
+    .primeira {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .jjj {
+        margin: 50px 20px;
+    }
+
+    .textodois {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 10px;
+    }
+
+    header h1, header h2 {
+        font-size: 1rem;
+    }
+
+
+    .primeiraatv {
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .btncalcularcss, .btncor {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+    }
+
+    .jjj {
+        margin: 30px 10px;
+    }
+
+
+    .textodois {
+        padding: 10px;
+    }
+}
